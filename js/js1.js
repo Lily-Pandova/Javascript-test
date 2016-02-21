@@ -93,7 +93,7 @@ window.onload=function(){
         counts=object.length,
         target=document.getElementById("tablica"),
         i;
-    for(i=0;i<counts; i=i+1){
+    for(i=0;i<counts; i++){
         var item = object[i],
             ID=item.ID,
             FirstName = item.FirstName;
